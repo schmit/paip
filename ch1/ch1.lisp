@@ -19,7 +19,6 @@
 
 (defun self-and-double (x) (list x (+ x x)))
 
-
 (defun numbers-and-negations (input)
   (mappend #'number-negation input))
 
